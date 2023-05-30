@@ -1,0 +1,5 @@
+
+user:
+  name: application.yml
+  age: 1000
+  desc: application.yml-desc

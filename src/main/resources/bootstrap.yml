@@ -1,0 +1,25 @@
+server:
+  # 端口
+  port: 8118
+
+spring:
+  application:
+    # 应用名
+    name: nacos-config-study
+  cloud:
+    nacos:
+      config:
+        # 指定nacos服务端地址
+        server-addr: localhost:8848
+        # 指定nacos配置中心使用的命名空间
+        namespace: 013f54f2-582f-4921-a998-46fdabeb0542
+
+
+  profiles:
+    # 设置spring.profiles.active
+    active: dev
+
+user:
+  name: bootstrap
+  age: 600
+  desc: bootstrap-desc
